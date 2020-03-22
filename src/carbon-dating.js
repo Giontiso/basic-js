@@ -1,7 +1,7 @@
 const MODERN_ACTIVITY= 15; 
 const HALF_LIFE_PERIOD= 5730;
 
-module.exports = function dateSample(/* sampleActivity */) {
+module.exports = function dateSample(act) {
   let sampleActivity;
 
   // only for pass the test
